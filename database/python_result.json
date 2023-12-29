@@ -1,0 +1,55 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "lastLowestPrice": 405,
+      "EAN": 34,
+      "SKU": 3424,
+      "productName": "Product 1",
+      "marketName": "MERK_01"
+    },
+    {
+      "lastLowestPrice": 405,
+      "EAN": 34,
+      "SKU": 344,
+      "productName": "Product 2",
+      "marketName": "MERK_02"
+    },
+
+    {
+      "lastLowestPrice": 4054,
+      "EAN": 34,
+      "SKU": 342,
+      "productName": "Product 3",
+      "marketName": "MERK_03"
+    },
+    {
+      "lastLowestPrice": 4054,
+      "EAN": 87,
+      "SKU": 342,
+      "productName": "Product 3",
+      "marketName": "MERK_03"
+    },
+    {
+      "lastLowestPrice": 4054,
+      "EAN": 56,
+      "SKU": 342,
+      "productName": "Product 3",
+      "marketName": "MERK_03"
+    },
+    {
+      "lastLowestPrice": 4054,
+      "EAN": 15,
+      "SKU": 342,
+      "productName": "Product 3",
+      "marketName": "MERK_03"
+    },
+    {
+      "lastLowestPrice": 3040,
+      "EAN": 15,
+      "SKU": 342,
+      "productName": "Product 3",
+      "marketName": "MERK_03"
+    }
+  ]
+}
