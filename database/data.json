@@ -1,0 +1,101 @@
+[
+    {
+        "Ean": {
+                "productName": "PROD_01",
+                "data": [
+                    {
+                        "lastLowestPrice" : 2300,
+                        "SKU": 123,
+                        "marketID": 23,
+                        "marketName": "MERC_01"
+                    },
+                    {
+                        "lastLowestPrice" : 2400,
+                        "SKU": 342,
+                        "marketID": 297,
+                        "marketName": "MERC_02"
+                    },
+                    {
+                        "lastLowestPrice" : 1300,
+                        "SKU": 344,
+                        "marketID": 395,
+                        "marketName": "MERC_03"
+                    },
+                    {
+                        "lastLowestPrice" : 2570,
+                        "SKU": 656,
+                        "marketID": 575,
+                        "marketName": "MERC_04"
+                    }
+                ],
+                "marketCount": 4,
+                "priceRange": 1270
+        }
+    }, 
+    {
+        "Ean": {
+                "productName": "PROD_02",
+                "data": [
+                    {
+                        "lastLowestPrice" : 1300,
+                        "SKU": 23,
+                        "marketID": 3,
+                        "marketName": "MERC_13"
+                    },
+                    {
+                        "lastLowestPrice" : 1400,
+                        "SKU": 42,
+                        "marketID": 97,
+                        "marketName": "MERC_34"
+                    },
+                    {
+                        "lastLowestPrice" : 300,
+                        "SKU": 44,
+                        "marketID": 95,
+                        "marketName": "MERC_54"
+                    },
+                    {
+                        "lastLowestPrice" : 1470,
+                        "SKU": 56,
+                        "marketID": 75,
+                        "marketName": "MERC_45"
+                    }
+                ],
+                "marketCount": 4,
+                "priceRange": 1170
+        }
+    },
+    {
+        "Ean": {
+                "productName": "PROD_03",
+                "data": [
+                    {
+                        "lastLowestPrice" : 230,
+                        "SKU": 12,
+                        "marketID": 2,
+                        "marketName": "MERC_10"
+                    },
+                    {
+                        "lastLowestPrice" : 240,
+                        "SKU": 34,
+                        "marketID": 29,
+                        "marketName": "MERC_23"
+                    },
+                    {
+                        "lastLowestPrice" : 130,
+                        "SKU": 34,
+                        "marketID": 35,
+                        "marketName": "MERC_32"
+                    },
+                    {
+                        "lastLowestPrice" : 257,
+                        "SKU": 65,
+                        "marketID": 57,
+                        "marketName": "MERC_34"
+                    }
+                ],
+                "marketCount": 4,
+                "priceRange": 127
+        }
+    }
+]
