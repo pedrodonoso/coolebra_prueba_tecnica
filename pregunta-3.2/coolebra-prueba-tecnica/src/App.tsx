@@ -15,10 +15,9 @@ function App() {
   const [data, setData] = useState<Array<Data>>([]); // productos originales
   const { items, setItems, filterItems } = useItems(); // productos que se filtrarán
 
-
   function onChangeOption(e: React.ChangeEvent<HTMLSelectElement>) {
     const keySelected = e.target.value; //captura valor del elemento HTML <select>
-    filterItems(keySelected, data);  // filtra productos
+    filterItems(keySelected, data); // filtra productos
   }
 
   useEffect(() => {
@@ -27,22 +26,23 @@ function App() {
     setItems(result); // inicializa productos filtrables
   }, [setItems]);
 
-
   return (
-    <div className="flex flex-col h-screen">
+    <>
       <Navbar />
-      <body className="container mx-auto">
-        <main className="p-0 h-screen">
-          <Dropdown data={data} onChange={onChangeOption} />
-          <div className="grid grid-cols-4 gap-4">
-            {items.map((item) => {
-              return <Card data={item.Ean} />;
-            })}
-          </div>
-        </main>
-      </body>
+      <div className="flex flex-col h-screen">
+        <div className="container mx-auto">
+          <main className="p-0 h-screen">
+            <Dropdown data={data} onChange={onChangeOption} />
+            <div className="grid grid-cols-4 gap-4">
+              {items.map((item) => {
+                return <Card data={item.Ean} key={item.Ean.productName}/>;
+              })}
+            </div>
+          </main>
+        </div>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

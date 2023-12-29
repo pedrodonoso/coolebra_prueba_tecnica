@@ -1,7 +1,6 @@
 export interface Product {
   lastLowestPrice: number;
   SKU: number;
-  marketID: number;
   marketName: string;
 }
 
