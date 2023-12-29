@@ -13,13 +13,13 @@
    
     ```json
     {
-        “Ean”: {
-                “nombre producto (asumir que los productos con mismo Ean tienen el mismo nombre)”,
-                “datos de la query”: [ 
-                    “listado de los datos que vienen en la query”, 
+        "Ean": {
+                "nombre producto (asumir que los productos con mismo Ean tienen el mismo nombre)",
+                "datos de la query": [ 
+                    "listado de los datos que vienen en la query", 
                 ],
-                “cantidad de markets diferentes”,
-                “rango de precios (Mayor precio - Menor precio)”
+                "cantidad de markets diferentes",
+                "rango de precios (Mayor precio - Menor precio)"
         },
     }
     ```
@@ -33,40 +33,3 @@
   - El arreglo de diccionarios puede estar definido como constante dentro de React y su data debe ser inventada, al menos 3 Eans diferentes.
   - Al cargar la página se debe poder ver el HTML creado
   - Diagrama sobre precios de los productos. SKU es un valor único que lo relaciona con el mercado, Ean es un identificador único que lo provee el proveedor del producto a nivel mercado. Un producto en diferentes mercados puede tener el mismo Ean, pero diferente SKU.
-
-
-```json
-    {
-        "Ean": {
-                "productName": "PROD_01",
-                "data": [
-                    {
-                        "lastLowestPrice" : 2300,
-                        "SKU": 123,
-                        "marketID": 23,
-                        "marketName": "MERC_01"
-                    },
-                    {
-                        "lastLowestPrice" : 2400,
-                        "SKU": 342,
-                        "marketID": 297,
-                        "marketName": "MERC_02"
-                    },
-                    {
-                        "lastLowestPrice" : 1300,
-                        "SKU": 344,
-                        "marketID": 395,
-                        "marketName": "MERC_03"
-                    },
-                    {
-                        "lastLowestPrice" : 2570,
-                        "SKU": 656,
-                        "marketID": 575,
-                        "marketName": "MERC_04"
-                    }
-                ],
-                "marketCount": 20,
-                "priceRange": 4300
-        },
-    }
-    ```
