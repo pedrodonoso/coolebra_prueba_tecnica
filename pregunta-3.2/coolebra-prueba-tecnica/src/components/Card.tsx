@@ -1,4 +1,4 @@
-import { EAN } from "../data";
+import { EAN } from "../interfaces/data";
 
 export const Card: React.FC<{ data: EAN }> = ({ data }) => {
   return (

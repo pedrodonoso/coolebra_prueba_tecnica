@@ -2,10 +2,9 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import { useEffect, useState } from "react";
-import "./App.css";
 import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
-import { Data } from "./data";
+import { Data } from "./interfaces/data";
 import { Card } from "./components/Card";
 import { Dropdown } from "./components/Dropdown";
 import { useItems } from "./hooks/useItems";

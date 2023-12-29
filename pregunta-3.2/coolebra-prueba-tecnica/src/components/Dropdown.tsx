@@ -1,4 +1,4 @@
-import { Data } from "../data";
+import { Data } from "../interfaces/data";
 
 const DEFAULT_VALUE = "DEFAULT";
 

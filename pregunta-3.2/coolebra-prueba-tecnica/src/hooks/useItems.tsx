@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Data } from "../data";
+import { Data } from "../interfaces/data";
 
 export const useItems = () => {
   const [items, setItems] = useState<Array<Data>>([]);
